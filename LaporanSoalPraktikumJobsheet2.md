@@ -10,6 +10,8 @@
 1. Jalankan Langkah-langkah Praktikum pada jobsheet di atas. Lakukan sinkronisasi
 perubahan pada project PWL_2024 ke Github.
 
+<img src = img/soal1.png>
+
 2. Buatlah project baru dengan nama POS. Project ini merupakan sebuah aplikasi Point of Sales yang digunakan untuk membantu penjualan.
 
 <img src = img/soal2run.png>
