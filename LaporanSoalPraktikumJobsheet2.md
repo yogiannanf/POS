@@ -253,6 +253,26 @@ class POSController extends Controller
 </html>
 ```
 
+- routes : web.php
+```php
+<?php
+
+use Illuminate\Support\Facades\Route;
+use  App\Http\Controllers\POSController;
+
+Route::get('/', [POSController::class, 'home']);
+
+Route::get('/products', [POSController::class, 'products']);
+
+Route::get('/category/{category}', [POSController::class, 'productsCategory']);
+
+Route::get('/user/{id}/{name}', [POSController::class, 'user']);
+
+Route::get('/sales', [POSController::class, 'sales']);
+
+Route::post('/processSale', [POSController::class, 'processSale'])-> name('process.sale');
+```
+
     1. Menampilkan halaman awal website :
 
 <img src = img/soal3_3.png>
